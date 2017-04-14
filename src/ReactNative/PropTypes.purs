@@ -52,8 +52,6 @@ refFunc = unsafeCoerce
 
 type Insets = {top:: Number, left:: Number, bottom:: Number, right:: Number}
 
-foreign import nativeImageSource :: {android::String, width::Int, height::Int } -> ImageSource
-
 class AutoEnum a where
   auto :: a
 
